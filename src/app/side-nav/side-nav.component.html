@@ -1,0 +1,12 @@
+<mat-sidenav-container>
+  <mat-sidenav #openSideNav mode="side" opened="false">
+    <mat-list>
+      <h3 mat-subheader routerLink="/dashboard">
+        <mat-icon mat-list-icon>dashboard</mat-icon>&nbsp;Dashboard
+      </h3>
+    </mat-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
